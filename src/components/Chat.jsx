@@ -9,7 +9,7 @@ import icon from "../images/emoji.svg";
 import styles from "../styles/Chat.module.css";
 import Messages from "./Messages";
 
-const socket = io.connect("https://chat-7sju.onrender.com");
+const socket = io.connect("https://enchanting-parfait-42781f.netlify.app");
 
 const Chat = () => {
   const { search } = useLocation();
